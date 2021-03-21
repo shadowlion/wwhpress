@@ -1,0 +1,33 @@
+a {
+  color: #E23117;
+}
+
+img {
+  border: 0;
+}
+
+h4 {
+  font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-weight: bold;
+  border-bottom: 2px solid #D73103;
+  padding-bottom: 10px;
+}
+
+.payment {
+  height: 210px;
+}
+
+.plabel {
+  font: 11px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.pbox {
+  width: 172px;
+  height: 100px;
+  float: left;
+  margin-right: 25px;
+}
+
+.pbox img:hover {
+  background: #D73103;
+}

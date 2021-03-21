@@ -2,7 +2,7 @@ const stripe = Stripe(
   "pk_test_51ISoQ4FerEI1oMqtSjXSRYVnPONSpRYBkuVZ7ROLfRojsQqCmM0rYqlaXGaZOs6jtVHAOo9EDZobN3nyWRl9Fdtc008mvdhP3u"
 );
 
-const checkoutButton = document.querySelector("#checkout");
+const checkoutButton = document.querySelector("#cc-checkout");
 checkoutButton.addEventListener("click", async () => {
   console.log("checking out...");
   try {
@@ -14,8 +14,8 @@ checkoutButton.addEventListener("click", async () => {
         },
       ],
       mode: "payment",
-      successUrl: "https://example.com/success",
-      cancelUrl: "https://example.com/cancel",
+      successUrl: "https://wwhpress.netlify.app/success",
+      cancelUrl: "https://wwhpress.netlify.app/cancel",
       shippingAddressCollection: {
         allowedCountries: ["US", "CA"],
       },

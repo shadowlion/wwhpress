@@ -86,13 +86,13 @@ html[xmlns] .clearfix {
 .home {
   width: 100%;
   min-height: 670px;
-  background: #FFF url('images/bghome.jpg') no-repeat center top;
+  background: #FFF url('../images/bghome.jpg') no-repeat center top;
 }
 
 .header-inside {
   width: 100%;
   min-height: 150px;
-  background: #666 url('images/bghome.jpg') no-repeat center top;
+  background: #666 url('../images/bghome.jpg') no-repeat center top;
 }
 
 .header {
@@ -135,7 +135,7 @@ ul.nav {
 }
 
 ul.nav li {
-  background: url("images/menu-shadow.png") no-repeat scroll 0 0 transparent;
+  background: url("../images/menu-shadow.png") no-repeat scroll 0 0 transparent;
   display: block;
   float: left;
   margin: 0 3px;
@@ -401,8 +401,7 @@ ul.nav a:hover {
 }
 
 .pr-logos {
-  margin-top: 170px;
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   width: 600px;
   height: 48px;
 }
