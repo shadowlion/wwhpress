@@ -11,6 +11,10 @@ checkoutButton.addEventListener("click", async () => {
           price: "price_1ITs72FerEI1oMqtrfOkOl36",
           quantity: 1,
         },
+        {
+          price: "price_1IWoxcFerEI1oMqthr0SLg0d",
+          quantity: 1,
+        }
       ],
       mode: "payment",
       successUrl: "https://wwhpress.netlify.app/success",
