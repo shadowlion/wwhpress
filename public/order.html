@@ -14,83 +14,65 @@
   <link rel="stylesheet" type="text/css" href="css/order.css">
   <script src="https://js.stripe.com/v3/"></script>
   <script src="js/index.js" type="text/javascript" defer></script>
-  <!-- Facebook Conversion Code for Checkouts - Marion Behr 1 -->
-
-  <!-- Facebook Conversion Code for page views -->
-  <script>
-    (function () {
-      var _fbq = window._fbq || (window._fbq = []);
-      if (!_fbq.loaded) {
-        var fbds = document.createElement('script');
-        fbds.async = true;
-        fbds.src = '//connect.facebook.net/en_US/fbds.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(fbds, s);
-        _fbq.loaded = true;
-      }
-    })();
-    window._fbq = window._fbq || [];
-    window._fbq.push(['track', '6017509554421', {
-      'value': '20.95',
-      'currency': 'USD'
-    }]);
-  </script>
-  <noscript>
-    <img height="1" width="1" alt="" style="display:none"
-      src="https://www.facebook.com/tr?ev=6017509554421&cd[value]=20.95&cd[currency]=USD&noscript=1" />
-  </noscript>
+  <script src="js/ganalytics.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-  <div class="header">
-    <div class="header-home clearfix">&nbsp;</div>
-    <!-- end header-home -->
-    <ul class="nav">
-      <li>
-        <div class="imglink"><a href="http://wwhpress.com/about.html"><img src="images/li.jpg" alt="" /></a></div>
-        <h3>About the Book</h3>
-      </li>
-      <li>
-        <div class="imglink"><a href="http://wwhpress.com/preface.html"><img src="images/li2.jpg" alt="" /></a></div>
-        <h3>Preface</h3>
-      </li>
-      <li>
-        <div class="imglink"><a href="http://wwhpress.com/reviews.html"><img src="images/li3.jpg" alt="" /></a></div>
-        <h3>Reviews</h3>
-      </li>
-      <li>
-        <div class="imglink"><a href="http://wwhpress.com/press.html"><img src="images/li4.jpg" alt="" /></a></div>
-        <h3>Press</h3>
-      </li>
-      <li>
-        <div class="imglink"><a href="http://wwhpress.com/order.html"><img src="images/li5.jpg" alt="" /></a></div>
-        <h3>Order Book</h3>
-      </li>
-    </ul>
-    <!-- end menu -->
-  </div>
-  <!-- end header -->
-  <div class="socialbar">
-
+  <section class="socialbar">
     <div class="homebutton">
-      <a href="home.html"><img src="images/home.png" title="Go to home page" alt="Go to home page">
+      <a href="/">
+        <img src="images/home.png" title="Go to home page" alt="Go to home page">
         <p>&laquo; Home</p>
       </a>
     </div>
-
     <div class="socialicons">
-      <a href="https://www.facebook.com/ourvoicesandchoices1"><img src="images/icon-facebook.png" title="Facebook"></a>
-      <a href="https://twitter.com/CancerToSurvive"><img src="images/icon-twitter.png" title="Twitter"></a>
-      <a href="http://plus.google.com/117983549878482498288/"><img src="images/icon-googleplus.png"
-          title="Google Plus"></a>
-      <a href="https://www.linkedin.com/in/mylyne"><img src="images/icon-linkedin.png" title="Linkedin"></a>
-      <a href="http://speakuptocancer.com/"><img src="images/icon-blog.png" title="Our Blog - Speak Up to Cancer"></a>
-      <a href="http://wwhpress.com/contact.html"><img src="images/icon-contact.png" title="Contact Us"></a>
+      <a href="https://www.facebook.com/ourvoicesandchoices1" target="_blank">
+        <img src="images/icon-facebook.png" title="Facebook">
+      </a>
+      <a href="https://twitter.com/CancerToSurvive" target="_blank">
+        <img src="images/icon-twitter.png" title="Twitter">
+      </a>
+      <a href="http://www.linkedin.com/in/mylyne" target="_blank">
+        <img src="images/icon-linkedin.png" title="Linkedin">
+      </a>
+      <a href="https://speakuptocancer.com/" target="_blank">
+        <img src="images/icon-blog.png" title="Our Blog - Speak Up to Cancer">
+      </a>
+      <a href="/contact"><img src="images/icon-contact.png" title="Contact Us"></a>
     </div>
-  </div>
+  </section>
+  <!-- Menu Navigation -->
+  <section class="header">
+    <ul class="nav">
+      <li>
+        <div class="imglink"><a href="/about"><img src="images/li.jpg" alt="" /></a></div>
+        <h3>About the Book</h3>
+      </li>
+      <li>
+        <div class="imglink"><a href="/preface"><img src="images/li2.jpg" alt="" /></a></div>
+        <h3>Preface</h3>
+      </li>
+      <li>
+        <div class="imglink"><a href="/reviews"><img src="images/li3.jpg" alt="" /></a></div>
+        <h3>Reviews</h3>
+      </li>
+      <li>
+        <div class="imglink"><a href="/press"><img src="images/li4.jpg" alt="" /></a></div>
+        <h3>Press</h3>
+      </li>
+      <li>
+        <div class="imglink"><a href="/order"><img src="images/li5.jpg" alt="" /></a></div>
+        <h3>Order Book</h3>
+      </li>
+    </ul>
+  </section>
+  <!-- End Menu Navigation -->
+
   <div class="top"></div>
   <div class="header-inside">&nbsp;</div>
-  <div class="content">
+
+  <!-- Block Content -->
+  <section class="content">
     <p>&nbsp;</p>
     <h2 style="width: 940px; border-bottom: 1px solid #CCC; padding-bottom: 10px; margin-bottom: 40px;">
       Order your book
@@ -102,15 +84,12 @@
       <h3 style="font-size: 20px; padding-bottom: 10px;">
         <strong><em>Surviving Cancer: Our Voices &amp; Choices</em></strong>
       </h3>
-
       <p style="font-size: 16px;"><em>The book size is 8&rdquo; x 10&rdquo;. 268 pages</em>
       </p>
       <p style="border-bottom: 1px solid #CCC; padding-bottom: 20px; margin-bottom: 20px;">
         20% of the profit from the sale of each book is donated to cancer-related charities involved in the search for
         the cures, or that provide services and support to those who are battling cancer.
       </p>
-
-
       <h3 style="font-size: 20px;"><strong><em>Price: <strike>$20.95</strike></em></strong></h3>
       <h3 style="font-size: 20px; color: #e80000;"><strong><em>Coronavirus Special: $10.50</em></strong></h3>
       <p style="font-size: 12px; margin-bottom: 20px;">S&amp;H for US. $3.99 (NJ Tax, residents only: $1.47)</p>
@@ -158,20 +137,21 @@
           href="mailto:wwhpress@gmail.com">wwhpress@gmail.com</a></p>
     </div>
 
-  </div>
+  </section>
 
-  <div class="footer-inside">
-    <div class="footerdivider">&nbsp;</div>
-    <p style="border-bottom: 1px solid #E2E2E2; padding-bottom: 20px;">377 River Road. Branchburg NJ 08876 - USA. Phone:
-      908 429 4254. E-mail: <a href="mailto:wwhpress@gmail.com">wwhpress@gmail.com</a>. <a
-        href="http://wwhpress.com/contact.html">Contact Us</a></p>
-    <div style="width: 350px; margin: 20px auto 0 auto;">
-      <div class="clearfix"><img style="float: left;" src="images/wwhlogo.jpg" alt="" />
-        <p style="float: left; margin-top: 25px; margin-left: 20px;">&copy; 2014 WWH Press. All Rights Reserved.</p>
+  <footer class="footer">
+    <p style="border-top: 10px solid #E23117; padding: 20px 0; border-bottom: 1px solid #E2E2E2;">
+      377 River Road, Branchburg, NJ USA 08876. Phone: <a href="tel:9084294254">(908) 429-4254</a>. E-mail: <a
+        href="mailto:wwhpress@gmail.com">wwhpress@gmail.com</a>. <a href="/contact">Contact Us</a>
+    </p>
+    <div style="width: 400px; margin: 20px auto 0 auto;">
+      <div class="clearfix">
+        <img style="float: left;" src="images/wwhlogo.jpg" alt="logo" />
+        <p style="float: left; margin-top: 25px; margin-left: 20px;">&copy; 2014 - 2021 WWH Press. All Rights Reserved.
+        </p>
       </div>
     </div>
-  </div>
-  <script src="js/ganalytics.js" type="text/javascript" defer></script>
+  </footer>
 </body>
 
 </html>
