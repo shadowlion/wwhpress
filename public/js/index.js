@@ -4,12 +4,11 @@ const stripe = Stripe(
 
 const checkoutButton = document.querySelector("#cc-checkout");
 checkoutButton.addEventListener("click", async () => {
-  console.log("checking out...");
   try {
     const result = await stripe.redirectToCheckout({
       lineItems: [
         {
-          price: "price_1ISq1IFerEI1oMqtTFD7VnRr",
+          price: "price_1ITs72FerEI1oMqtrfOkOl36",
           quantity: 1,
         },
       ],
