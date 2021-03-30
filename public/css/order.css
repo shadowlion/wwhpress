@@ -25,9 +25,24 @@ h4 {
   width: 172px;
   height: 100px;
   float: left;
-  margin-right: 25px;
+  margin-right: 24px;
 }
 
 .pbox img:hover {
   background: #D73103;
+}
+
+article {
+  grid-area: article;
+}
+
+aside {
+  grid-area: aside;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "article article aside";
 }
