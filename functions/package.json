@@ -1,0 +1,9 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "Serverless functions for the WWH Press website.",
+  "author": "Justin Chiou <chiou.kai@gmail.com>",
+  "dependencies": {
+    "stripe": "^8.145.0"
+  }
+}
